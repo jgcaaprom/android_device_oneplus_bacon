@@ -13,3 +13,9 @@ LOCAL_SHARED_LIBRARIES := \
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/hw
 LOCAL_CFLAGS := -Werror
 include $(BUILD_SHARED_LIBRARY)
+
+$(combo_2nd_arch_prefix)TARGET_NDK_GCC_VERSION := 4.8
+
+LOCAL_CC := $$(TARGET_TOOLCHAIN_ROOT)/../arm-linux-androideabi-4.8/bin/arm-linux-androideabi-gcc$$(HOST_EXECUTABLE_SUFFIX)
+LOCAL_CXX := $$(TARGET_TOOLCHAIN_ROOT)/../arm-linux-androideabi-4.8/bin/arm-linux-androideabi-g++$$(HOST_EXECUTABLE_SUFFIX)
+
