@@ -117,6 +117,7 @@
 /dev/hw_random            0660   system     system
 /dev/frandom              0666   root       root
 /dev/erandom              0666   root       root
+/dev/prandom              0666   root       root
 
 #permissions for audio
 /dev/msm_qcelp            0660   system     audio
