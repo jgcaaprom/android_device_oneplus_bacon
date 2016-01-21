@@ -56,6 +56,11 @@ TARGET_KERNEL_CONFIG := cyanogenmod_bacon_defconfig
 TARGET_KERNEL_SOURCE := kernel/oneplus/msm8974
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
 
+# Enable DIAG on debug builds
+ifneq ($(TARGET_BUILD_VARIANT),user)
+TARGET_KERNEL_ADDITIONAL_CONFIG ?= cyanogenmod_debug_config
+endif
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
