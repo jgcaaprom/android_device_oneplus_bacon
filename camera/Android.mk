@@ -13,3 +13,7 @@ LOCAL_SHARED_LIBRARIES := \
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/hw
 LOCAL_CFLAGS := -Werror
 include $(BUILD_SHARED_LIBRARY)
+
+$(LOCAL_INSTALLED_MODULE): $(LOCAL_BUILT_MODULE) | $(ACP)
+	@echo "Install (overridden): $@"
+	$(hide) $(ACP) -fp $< $(dir $@)/camera.msm8974$(TARGET_SHLIB_SUFFIX)
