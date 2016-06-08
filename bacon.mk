@@ -62,23 +62,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.msm8974 \
-    coloroscam \
-    coloroscam.plug1 \
-    coloroscam.plug2 \
-    coloroscam.plug3 \
-    coloroscam.plug4 \
-    coloroscam.plug5 \
-    coloroscam.plug6 \
-    coloroscam.plug7 \
-    coloroscam.plug8 \
-    coloroscam.plug9 \
-    coloroscam.plug10 \
-    coloroscam.plug11 \
-    coloroscam.plug12
-
-
-
+    camera.msm8974
 
 # Charger
 PRODUCT_PACKAGES += \
