@@ -63,9 +63,8 @@ TARGET_SCREEN_WIDTH := 1080
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8974 \
-    CameraNext \
     GalleryNext \
-    HyperlapseCameraPlugin
+    Snap
 
 # Charger
 PRODUCT_PACKAGES += \
