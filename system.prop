@@ -79,4 +79,4 @@ persist.timed.enable=true
 wifi.interface=wlan0
 
 # App Limit until i find a better solution.
-ro.sys.fw.bg_apps_limit=32
+ro.sys.fw.bg_apps_limit=24
