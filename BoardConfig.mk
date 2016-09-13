@@ -54,9 +54,6 @@ TARGET_KERNEL_CONFIG := cyanogenmod_bacon_defconfig
 TARGET_KERNEL_SOURCE := kernel/oneplus/msm8974
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := /home/jorge/cm14/prebuilts/gcc/linux-x86/arm/arm-eabi-4.9/bin/arm-eabi-
 
-# ANT+
-BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
-
 # Assert
 TARGET_OTA_ASSERT_DEVICE := bacon,A0001
 
