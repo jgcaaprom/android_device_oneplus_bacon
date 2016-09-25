@@ -66,8 +66,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.bacon \
-    Snap
+    camera.bacon
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -220,6 +219,10 @@ PRODUCT_PACKAGES += \
 # Recovery
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     $(LOCAL_PATH)/bacon
+
+# Telephony-ext
+PRODUCT_PACKAGES += telephony-ext
+PRODUCT_BOOT_JARS += telephony-ext
 
 # Thermal config
 PRODUCT_COPY_FILES += \
