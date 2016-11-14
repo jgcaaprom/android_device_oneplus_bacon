@@ -19,6 +19,8 @@
 
 PLATFORM_PATH := device/oneplus/bacon
 
+TARGET_USE_SDCLANG := true
+
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/include
 
