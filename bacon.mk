@@ -90,10 +90,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
 	OneplusDoze
 
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
-
 # Graphics
 PRODUCT_PACKAGES += \
     copybit.msm8974 \
