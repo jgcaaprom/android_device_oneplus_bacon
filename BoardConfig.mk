@@ -22,7 +22,11 @@ PLATFORM_PATH := device/oneplus/bacon
 
 TARGET_USE_SDCLANG := true
 
+SDCLANG_PATH := prebuilts/clang/linux-x86/host/3.8-sd/bin
+
 # Include path
+SDCLANG_LTO_DEFS := device/qcom/common/sdllvm-lto-defs.mk
+
 TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/include
 
 # Bootloader
